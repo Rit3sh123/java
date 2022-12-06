@@ -1,5 +1,7 @@
 class HelloWorld {
     public static void main(String[] args) {
+    //the above is main method
+    
 int a[]={1,2,3,4};
 for(int i=0;i<=a.length;i++){
     
