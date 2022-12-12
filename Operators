@@ -1,0 +1,42 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Operators {
+    public static void main(String[] args) {
+        // Arthematic operatos (+-*/%)
+        
+        int a=10;
+        int b=20;
+        System.out.println("Sum of a and b is:"+(a+b));
+        System.out.println("Sub of a and b is:"+(b-a));
+        System.out.println("Mul of a and b is:"+(a*b));
+        System.out.println("Div of a and b is:"+(a/b));
+        System.out.println("Mod Div of a and b is:"+(a%b));
+        
+        /*Relational Operators/ Comparsion Operators( always returns value in boolean (true/false))
+         (> >= < <= != ==)*/
+        
+        System.out.println(a>b); //false
+        System.out.println(a<b); //true
+        System.out.println(a>=b); //false
+        System.out.println(a<=b); //true
+        System.out.println(a!=b); //true
+        System.out.println(a==b); //false
+        
+        /* Logical Operators (always returns value in boolean (true/false))
+           && || ! (&& results to true if both are true, || results in true if either one is true, ! results the negaitve of value for example x=true then !x is false */
+           
+           boolean x=true;
+           boolean y=false;
+        System.out.println(x && y); //false 
+        System.out.println(x || y); //true
+        System.out.println(!x); // false
+        
+        // Increment & Decrement Operators
+        
+        a=100;
+        b=100;
+        System.out.println(++a);
+        System.out.println(--b);
+    }
+}
