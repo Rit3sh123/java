@@ -1,0 +1,50 @@
+// Control Statments(Conditional/Selection Statements)
+// if else program code
+class EvenOROddNumber {
+    public static void main(String[] args) {
+        int num=25;
+        if(num%2==0)
+        {
+            System.out.println("Number is Even");
+         }
+         else
+         {
+             System.out.println("Number is Odd");
+         }
+    }
+}
+
+class LargestOf2Number {
+    public static void main(String[] args) {
+        int x=250;
+        int y=100;
+        if(x>y)
+        {
+            System.out.println("x is largest");
+         }
+         else
+         {
+             System.out.println("y is largest");
+         }
+    }
+}
+
+class LargestOf3Number {
+    public static void main(String[] args) {
+        int x=250;
+        int y=100;
+        int z=300;
+        if(x>y && x>z)
+        {
+            System.out.println("x is largest");
+         }
+         else if(y>x && y>z)
+         {
+             System.out.println("y is largest");
+         }
+         else
+         {
+             System.out.println("z is largest");
+         }
+    }
+}
