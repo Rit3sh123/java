@@ -18,5 +18,14 @@ class JumpingStatements {
            }
            System.out.println(i);
        }
+       // skip some numbers i.e; 4,6,9
+       for(int i=1;i<=10;i++)
+       {
+           if(i==4 || i==6 || i==9)
+           {
+               continue;
+           }
+           System.out.println(i);
+       }
     }
 }
