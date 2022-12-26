@@ -1,0 +1,32 @@
+class WhileLoop {
+    public static void main(String[] args) {
+    //print 1...10 numbers
+    /* int i=1;
+    while(i<=10)
+    {
+        System.out.println(i);
+        i++; // i=i+1 //increment values
+    }*/
+     // print only even numbes b/w 1...10
+     /*int i=2;
+     while(i<=10)
+    {
+        System.out.println(i);
+        i=i+2;
+    }*/
+    // print only odd numbers b/w 1...10
+    /* int i=1;
+     while(i<=10)
+    {
+        System.out.println(i);
+        i=i+2;
+    }*/
+    // print number in descending order 10,9,8,....1
+    int i=10;
+    while(i>0)
+    {
+        System.out.println(i);
+        i--;
+    }
+  }
+}
