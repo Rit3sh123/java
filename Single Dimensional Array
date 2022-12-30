@@ -1,0 +1,38 @@
+/* 1. Declare an array
+2. insert values into array
+3. find size of an array
+4. read values from an array*/
+
+class SingleDimArray {
+    public static void main(String[] args) {
+     // Static array when the value is fixed
+        /*int a[]= new int[5]; //Declaration 
+        // Inserting values into an array
+        a[0]=50;
+        a[1]=100;
+        a[2]=150;
+        a[3]=200;
+        a[4]=250;
+        
+        System.out.println(a[2]);*/
+        
+        int a[]={50,100,150,200,250}; // Declared array without knowing/specific size of array- Dynamic array
+         
+         System.out.println(a.length); // size of an array
+         
+         //System.out.println(a[3]); // Extracts specific values from an array
+         
+         // read values from an array using classic and enhanced for loop
+         // classic for loop
+         /*for(int i=0;i<=a.length-1;i++)
+         {
+             System.out.println(a[i]); // 50,100,150,200,250
+         }*/
+         // for each loop/Enhanced for loop
+        for(int i:a)
+        {
+            System.out.println(i);
+        }
+         
+    }
+}
