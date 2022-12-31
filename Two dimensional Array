@@ -1,0 +1,45 @@
+/* 1. Declare an array
+2. insert values into array
+3. find size of an array
+4. read values from an array*/
+
+class TwoDimeArray {
+    public static void main(String[] args) {
+        // static array, where the value is fixed
+        /*int a[][]=new int[3][2]; //int [][]a=new int[3][2];//int []a[]=new int[3][2];
+        a[0][0]=100;
+        a[0][1]=200;
+        
+        a[1][0]=300;
+        a[1][1]=400;
+        
+        a[2][0]=500;
+        a[2][1]=600; 
+        System.out.println(a[2][1]);*/
+        
+        // Dynamic array, where the vaue is not fixed
+        int a[][]={{100,200},{300,400},{500,600}};
+        
+        // Size of an array
+        System.out.println("Number of rows:" +a.length);
+        System.out.println("Number of Columns:" +a[0].length);
+        
+        // read values from an array using classic and enhanced for loop
+        /*for(int i=0;i<=a.length-1;i++) //i represents row index
+        {
+            for(int j=0;j<=a[i].length-1;j++) //j represents column index
+            {
+                System.out.println(a[i][j]);
+            }
+        }*/
+        // enhanced for loop
+        for(int r[]:a)
+        {
+            for(int i:r)
+            {
+                System.out.print(i+"  ");
+            }
+            System.out.println();
+        }
+    }
+}
