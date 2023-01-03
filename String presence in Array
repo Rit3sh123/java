@@ -1,0 +1,21 @@
+class StringPresenceInArray {
+    public static void main(String[] args) {
+    String s[]={"welcome","Java","selenium","c++"};
+    String searchString="Java";
+    
+    boolean flag=false;
+    for(String i:s)
+    {
+        if(i.equals(searchString))
+        {
+        System.out.println("string found in array");
+        flag=true;
+        break;
+        }
+    }
+    if(flag==false)
+    {
+        System.out.println("string not found in array");
+    }
+        }
+}
