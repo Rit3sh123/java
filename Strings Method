@@ -1,0 +1,59 @@
+class StringsMethod {
+    public static void main(String[] args) {
+        // length
+        String s="welcome";
+        System.out.println(s.length());
+        
+        // concat: joins the strings
+        String s1="Welcome";
+        String s2="to Java";
+        System.out.println(s1+" "+s2);
+        System.out.println(s1+s2);
+        System.out.println(s1.concat(s2));
+        System.out.println("welcome"+" "+"to Java");
+        
+        // trim: remove spaces from string
+        s="   Java programming   ";
+        System.out.println(s);
+        System.out.println(s.trim());
+        
+        //charAt()
+        s="welcome";
+        System.out.println(s.charAt(3)); //c
+        System.out.println(s.charAt(5)); //m
+        
+        //contains(): returns in true/false
+        System.out.println(s.contains("wel")); //true
+        System.out.println(s.contains("come")); //true
+        
+        //equals() & equalsIgnoreCase(): returns in true/false
+        s="Welcome";
+        System.out.println(s.equals("Welcome")); // true
+        System.out.println(s.equals("welcome")); // false
+        
+        System.out.println(s.equalsIgnoreCase("Welcome")); // true
+        System.out.println(s.equalsIgnoreCase("welcome")); // true
+        
+        //replace(): 
+        s="welcome to java welcome to selenium";
+        System.out.println(s.replace('l','b'));
+        System.out.println(s.replace("to","2"));
+        
+        //substring()
+        s="welcome";
+        System.out.println(s.substring(0,3)); //wel
+        System.out.println(s.substring(2,4)); //lc
+        System.out.println(s.substring(0,7)); //welcome
+        
+        //toLowerCase() & toUpperCase()
+        s="WELCOME";
+        System.out.println(s.toLowerCase()); //welcome
+        
+        s="welcome";
+        System.out.println(s.toUpperCase()); //WELCOME
+        
+        s="welCOme";
+        System.out.println(s.toLowerCase()); // welcome
+        System.out.println(s.toUpperCase()); // WELCOME
+    }
+}
