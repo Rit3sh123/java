@@ -1,0 +1,25 @@
+class Employee {
+    // class variables
+    int eid;
+    String ename;
+    int deptno;
+    String job;
+    // class methods
+    void display()
+    {
+        System.out.println(eid);
+        System.out.println(ename);
+        System.out.println(deptno);
+        System.out.println(job);
+    }
+    
+    public static void main(String[] args) {
+        Employee emp1=new Employee();
+        emp1.eid=100;
+        emp1.ename="Varun";
+        emp1.deptno=12;
+        emp1.job="Business Analytics";
+        
+        emp1.display();
+    }
+}
